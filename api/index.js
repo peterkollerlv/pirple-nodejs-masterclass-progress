@@ -8,7 +8,7 @@
 const http = require("http");
 const { StringDecoder } = require("string_decoder");
 const url = require("url");
-const stringDecocer = require("string_decoder").StringDecoder;
+const stringDecoder = require("string_decoder").StringDecoder;
 
 // Server response to all requests via string
 const server = http.createServer(function (req, res) {
